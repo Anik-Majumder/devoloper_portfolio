@@ -1,0 +1,152 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+/* banner section */
+
+header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: bottom right, left;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.btn {
+  width: 150px;
+  height: 64px;
+  background-color: #fd6e0a;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-2 {
+  width: 150px;
+  height: 64px;
+  background-color: #ffffff;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.banner-text {
+  margin: auto 0px;
+}
+
+.banner-text h2 {
+  width: 177px;
+  height: 61px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 62px;
+  color: #474747;
+}
+.banner-text h1 {
+  width: 498px;
+  height: 116px;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  color: #181818;
+}
+.banner-text p {
+  width: 585px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.banner-image img {
+  height: 100%;
+}
+
+/* about section */
+
+.about {
+  width: 1140px;
+  height: 550px;
+  background-color: #fff8f3;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #181818;
+}
+.about p {
+  width: 827px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+
+.about-info {
+  display: flex;
+  text-align: center;
+}
+.about-info h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+}
+.about-info h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #474747;
+}
+
+.info {
+  margin: 0px 20px;
+}
